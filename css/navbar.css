@@ -18,7 +18,7 @@ a.nav-link.active {
 }
 
 .navbar-brand {
-  font-weight:100;
+  font-weight:bold;
   font-size: 1rem;
   width: 50%;
   padding-left: 1.3rem;
@@ -106,8 +106,6 @@ a.nav-link.active {
     display: none;
   }
 
-    .navbar-brand {
-    font-weight:bold;}
 }
 
 @media screen and (min-width: 769px) {
@@ -118,4 +116,6 @@ a.nav-link.active {
   #searchIconDesktop {
     display: inline-block;
   }
+
+
 }
