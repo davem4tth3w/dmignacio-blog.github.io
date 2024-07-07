@@ -1,0 +1,253 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .body {
+    height: auto;
+    width: auto;
+  }
+  
+  .body-container {
+      display:flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+
+  }
+
+  .contents {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: #f4f4f4 !important;
+    padding-bottom: 5rem;
+  }
+
+  .title {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/venue/cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-shadow: 0px 0px 10px;
+  }
+
+  .texts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .texts h1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0;
+    -webkit-text-fill-color:rgb(0, 255, 119);
+  }
+
+  .title_msg {
+    font-size: 20px !important;
+  }
+
+  .line1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color:white;
+    -webkit-text-fill-color:rgb(0, 97, 19);
+    text-align: center;
+  }
+
+  .line1 h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .contents-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .gmap-container {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    justify-content: left;
+    margin: 10px 0px;
+  }
+  .gmap {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    box-shadow: 0px 0px 5px;
+
+  }
+
+.column1 {
+  margin-top: 2rem;
+  float: left;
+  width: 40%;
+  padding: 10px 3.5rem;
+  height: auto; 
+}
+
+.column2 {
+  margin-top: 2rem;
+  float: right;
+  width: 60%;
+  padding: 10px 3.5rem;
+  height: auto; 
+}
+
+.column2 p{
+  width: 85%;
+}
+
+
+.contents-row {
+  width: 100%;
+
+}
+
+
+/* Clear floats after the columns */
+.contents-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+
+.image-container img{
+  display: flex;
+  width: 80%;
+  height: auto;
+}
+
+
+.footer-links i{
+  font-size: 20px;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+
+  .title {
+    background-position: left;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(../img/venue/coverphoto.jpeg);
+  }
+
+  .column1 {
+    padding: 15px 20PX;
+  }
+
+  .column2 {
+    padding: 15px 20px;
+  }
+  
+  .image-container img{
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .column2 p{
+    width: 100%;
+  }
+  
+
+}
+
+
+
+@media screen and (max-width: 768px  ){
+
+  .contents {
+    padding: 0;
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+  .texts {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: left;
+    background-size: cover;
+    padding: 0px 10px;
+    margin: 0;
+
+  }
+  .texts h1{
+    display: flex;
+    text-align: left;
+    font-size: 3rem;
+    
+  }
+
+  .line1 {
+    padding: 10px 32px;
+  }
+
+  .line1 h4{
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+  .column1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .column2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .gmap {
+    width: 100%;
+  }
+
+
+}
+

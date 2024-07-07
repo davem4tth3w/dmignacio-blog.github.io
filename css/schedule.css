@@ -1,0 +1,251 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .body {
+    height: auto;
+    width: auto;
+  }
+  
+  .body-container {
+      display:flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+
+  }
+
+  .contents {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: #f4f4f4 !important;
+    padding-bottom: 5rem;
+  }
+
+  .title {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url(../img/qbo-pic.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .texts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .texts h1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0;
+    -webkit-text-fill-color:rgb(0, 97, 19);
+  }
+
+
+  .title_msg {
+    font-size: 20px !important;
+  }
+
+  .line1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color:white;
+    -webkit-text-fill-color:rgb(0, 97, 19);
+    text-align: center;
+  }
+
+  .line1 h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 75%;
+  }
+
+  .contents-container {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+.schedule {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.no-of-day {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(0, 97, 19);
+}
+
+.date {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.schedule-row {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-row.header {
+    background-color: rgb(0, 137, 27);
+    color: white;
+    font-weight: bold;
+}
+
+.schedule-row:last-child {
+    border-bottom: none;
+}
+
+.time, .event {
+    padding: 15px;
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.time {
+    background: #f9f9f9;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    color: black ;
+}
+
+.event {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.bus-no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.END-TOUR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer-links i{
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .schedule-row {
+        display: flex;
+    }
+
+    .time, .event {
+       font-size: 15px;
+    }
+
+    .time {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .event {
+        padding-left: 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px  ){
+
+  .contents {
+    padding: 0;
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+  .texts {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: left;
+    background-size: cover;
+    padding: 0px 10px;
+    margin: 0;
+
+  }
+  .texts h1{
+    display: flex;
+    text-align: left;
+    font-size: 3rem;
+    
+  }
+
+  .line1 {
+    padding: 10px 32px;
+  }
+
+  .line1 h4{
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+}
+
