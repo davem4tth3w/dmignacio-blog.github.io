@@ -105,6 +105,9 @@ a.nav-link.active {
   #searchIconDesktop {
     display: none;
   }
+
+    .navbar-brand {
+    font-weight:bold;}
 }
 
 @media screen and (min-width: 769px) {
