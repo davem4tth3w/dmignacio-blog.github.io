@@ -240,6 +240,7 @@
 .act-article p {
   font-size: 1em;
   color: #333;
+  text-align: justify;
 }
 
 .slideshow-container {
@@ -471,6 +472,7 @@ border: solid 4px rgb(147, 147, 147);
 .bagiuo-article h4 {
   font-size: 25px;
   padding: 1rem;
+  text-align: justify;
 }
 
 
@@ -498,7 +500,7 @@ border: solid 4px rgb(147, 147, 147);
 }
 
 .prof-article {
-  text-align: left;
+  text-align: justify;
 }
 
 .f-name {
