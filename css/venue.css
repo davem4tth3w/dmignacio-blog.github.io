@@ -116,6 +116,9 @@
   width: 40%;
   padding: 10px 3.5rem;
   height: auto; 
+}
+
+.column1 h5{
   text-align: justify;
 }
 
